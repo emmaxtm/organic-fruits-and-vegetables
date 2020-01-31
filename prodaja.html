@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>pocetna</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stil.css">
+    <script src="kalkulacije.js"></script>
+    
+</head>
+<body>
+        
+    <header class="header">
+        <label for="show-menu" class="show-menu">MENI</label>
+        <input type="checkbox" id="show-menu">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpg"></a>
+        </div>
+        <nav class="navigacija">
+            <ul class="lista-header">
+                <li class="lista-header"><a href="index.html">POČETNA</a></li>
+                <li class="lista-header"><a href="prodaja.html">PRODAJA</a></li>
+                <li class="lista-header"><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+	<div class="main">
+        <div class="sadrzaj">
+                
+            <h2 class="naslov-oNama">NAŠA PONUDA</h2>
+           <div class="voce">
+             <img src="jagode.jpg"><br>JAGODE-220rsd<br><br>
+             <img src="kajsije.jpg"><br>KAJSIJE-100rsd<br><br>
+             <img src="krastavac.jpg"><br>KRASTAVAC-300rsd<br><br>
+             <img src="maline.jpg"><br>MALINE-1650rsd<br><br>
+             <img src="mladiLuk.jpg"><br>MLADI LUK-990rsd<br><br>
+             <img src="orah.jpg"><br>ORAH-1500rsd<br><br>
+             <img src="paradajz.jpg"><br>PARADAJZ-540rsd<br><br>
+             <img src="persun.jpg"><br>PERŠUN-750rsd<br><br>
+             <img src="praziluk.jpg"><br>PRAZILUK-1050rsd<br><br>
+             <img src="roga.jpg"><br>CRVENA PAPRIKA-2500rsd<br><br>
+             <img src="smokve.jpg"><br>SMOKVE-2300rsd<br><br>
+             <img src="spanac.jpg"><br>SPANAĆ-2600rsd<br><br>
+             <img src="visnje.jpg"><br>VIŠNJE-2500rsd<br><br>
+             <img src="zelena.jpg"><br>ZELENA SALATA-5000rsd<br><br>
+             
+           </div>
+        </div>
+		<div class="sidebar" >
+            <h3>AKCIJE I POPUSTI!</h3>
+            <P>20% popusta na veću količinu proizvoda!</P>
+            <p>20% popusta penzionerima i studentima uz validan dokument!</p>
+            <p>Mogućnost odloženog plaćanja čekovima građana!</p>
+            <h4>Izračunajte vrednost Vaše kupovine:</h4>
+           <input type="text" name="prvi" id="br1">
+           <button onclick="rezultat('1')">+</button>
+           <button onclick="rezultat('2')">-</button>
+           <button onclick="rezultat('3')">*</button>
+           <button onclick="rezultat('4')">/</button>
+           <input type="text" name="drugi" id="br2"><br><p><strong>=</strong></p>
+           <input type="text" id="rez">
+        </div>
+        <a href="#"><img class="arrow" src="arrow.png"></a>
+    </div>
+    </body>
